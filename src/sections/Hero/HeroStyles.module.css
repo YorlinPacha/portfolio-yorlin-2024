@@ -6,6 +6,7 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
+    margin-top: 20px;
 
     .hero{
         max-width: 200px;
@@ -54,5 +55,60 @@
 }
 
 .colorModeContainer{
-    
+    /* PADRE => para luego posicionar la luna con absoluted */
+    position: relative;
+}
+
+.colorMode{
+    position: absolute;
+    right: 0;
+    width: 27px;
+}
+
+.colorMode:hover{
+    cursor: pointer;
+}
+
+.description{
+    max-width: 37ch;
+    align-self: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (width >= 800px){
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .hero{
+            max-width: 300px;
+            width: 300px;
+        }
+    }
+}
+
+
+@media (width >= 890px){
+    .container{
+        .hero{
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media (width >= 1400px){
+    .container{
+        .hero{
+            max-width: 400px;
+            width: 400px;
+        }
+    }
 }

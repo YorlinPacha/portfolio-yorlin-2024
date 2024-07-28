@@ -27,7 +27,8 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>Yorlin <br/> Pachajoa</h1>
-        <h2>Desarrollador Web</h2>
+        <h2>Desarrollador Web <br/>
+          FullStack</h2>
         <span>
             <a href="https://twitter.com/" target="_blank">
                 <img src={twitterIcon} alt="Icono Twitter" />
@@ -39,7 +40,8 @@ function Hero() {
                 <img src={linkedinIcon} alt="Icono linkedin" />
             </a>
         </span>
-        <p>Apasionado por la programación, con un enfoque en la creatividad y la colaboración. Mi objetivo es crear soluciones innovadoras que no solo funcionan, sino que también inspiran. ¡Vamos a construir algo increíble juntos! </p>
+        <p className={styles.description}>Apasionado por la programación, con un enfoque en la creatividad y la colaboración. Mi objetivo es crear soluciones innovadoras que no solo funcionan, sino que también inspiran.</p>
+        <p className={styles.description}>¡Vamos a construir algo increíble juntos! </p>
         <a href={CV} download>
             <button className='hover'>
                 Curriculum
