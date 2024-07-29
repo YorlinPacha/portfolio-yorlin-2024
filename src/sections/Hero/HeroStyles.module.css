@@ -6,10 +6,12 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
-    margin-top: 20px;
+    margin-top: 150px;
 
     .hero{
         max-width: 200px;
+        border-radius: 50%;
+        border: none;
     }
 
     span{
@@ -57,11 +59,14 @@
 .colorModeContainer{
     /* PADRE => para luego posicionar la luna con absoluted */
     position: relative;
+    /* width: 90%; */
+    /* border: 1px solid white;
+    margin: auto; */
 }
 
 .colorMode{
     position: absolute;
-    right: 0;
+    right: 40px;
     width: 27px;
 }
 
@@ -81,11 +86,19 @@
     gap: 20px;
 }
 
+@media (width >= 360px){
+    .container{
+        margin-top: 40px;
+    }
+}
+
+
 @media (width >= 800px){
     .container{
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-evenly;
+        margin-top: 20px;
 
         .hero{
             max-width: 300px;
@@ -101,6 +114,9 @@
             max-width: 350px;
             width: 350px;
         }
+    }
+    .colorMode{
+        right: 0;
     }
 }
 

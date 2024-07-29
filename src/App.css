@@ -67,6 +67,12 @@ p{
     cursor: pointer;
 }
 
+.pTecnologias{
+    width: 55%;
+    margin: 10px auto;
+    font-family: "Montserrat", sans-serif;
+}
+
 @media (width >= 800px){
     #root{
         gap: 100px;

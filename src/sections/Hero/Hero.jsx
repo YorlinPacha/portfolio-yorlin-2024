@@ -1,21 +1,21 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png'
+import heroImg from '../../assets/perfilYorlin.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
-import twitterLight from '../../assets/twitter-light.svg'
-import twitterDark from '../../assets/twitter-dark.svg'
+import gmailDark from '../../assets/gmailLight.svg'
+import gmailLight from '../../assets/gmailDark.svg'
 import githubLight from '../../assets/github-light.svg'
 import githubrDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/CV-Yorlin-Pachajoa-R-2024.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
     const { theme, toggleTheme } = useTheme();
 
     const themeIcon = theme === 'light' ? sun : moon;
-    const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+    const gmailIcon = theme === 'light' ? gmailLight : gmailDark;
     const githubIcon = theme === 'light' ? githubLight : githubrDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -30,14 +30,14 @@ function Hero() {
         <h2>Desarrollador Web <br/>
           FullStack</h2>
         <span>
-            <a href="https://twitter.com/" target="_blank">
-                <img src={twitterIcon} alt="Icono Twitter" />
+            <a href="mailto:yorlin1517@gmail.com" target="_blank">
+                <img src={gmailIcon} alt="Icono linkedin" />
             </a>
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/YorlinPacha?tab=repositories" target="_blank">
                 <img src={githubIcon} alt="Icono github" />
             </a>
-            <a href="https://linkedin.com/" target="_blank">
-                <img src={linkedinIcon} alt="Icono linkedin" />
+            <a href="https://www.linkedin.com/in/yorlinpachajoa-dev/" target="_blank">
+                <img src={linkedinIcon} alt="Icono gmail" />
             </a>
         </span>
         <p className={styles.description}>Apasionado por la programación, con un enfoque en la creatividad y la colaboración. Mi objetivo es crear soluciones innovadoras que no solo funcionan, sino que también inspiran.</p>
