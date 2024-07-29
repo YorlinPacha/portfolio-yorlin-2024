@@ -14,7 +14,7 @@ function Projects() {
         {/* Agregamos el componente */}
         <ProjectCard
             src={imgKpi}
-            link={"https://github.com/YorlinPacha/Restaurante-Marimba"}
+            link={"https://github.com/YorlinPacha/modulo-kpi-unilever"}
             h3={"Indicadores Kpi"}
             p={"Modulo Empresarial"}
             tecnologias={"PHP - JavaScript - SQL - JQuery - Bootstrap"}/>
