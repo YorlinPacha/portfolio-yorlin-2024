@@ -20,11 +20,11 @@ function Projects() {
             p={"Modulo Empresarial"}
             tecnologias={"PHP - JavaScript - SQL - JQuery - Bootstrap"}/>
         <ProjectCard
-            src={imgSpace}
-            link={"https://github.com/YorlinPacha/Mi-Space-ToDo-List"}
-            h3={"Space To Do"}
-            p={"Lista de Tareas"}
-            tecnologias={"JavaScript - Vue3 - HTML - CSS3"}/>
+            src={imgMarimba}
+            link={"https://github.com/YorlinPacha/Restaurante-Marimba"}
+            h3={"Sistema Admin"}
+            p={"Web Restaurante "}
+            tecnologias={"PHP - JavaScript - SQL - Bootstrap"}/>
         <ProjectCard
             src={imgSestao}
             link={"https://github.com/YorlinPacha/ProyectoFinal-SestaoNow"}
@@ -32,11 +32,11 @@ function Projects() {
             p={"Portal de anuncios"}
             tecnologias={"Vue3 - JavaScript - SQL - Bootstrap - Python"}/>
         <ProjectCard
-            src={imgMarimba}
-            link={"https://github.com/YorlinPacha/Restaurante-Marimba"}
-            h3={"Sistema Admin"}
-            p={"Web Restaurante "}
-            tecnologias={"PHP - JavaScript - SQL - Bootstrap"}/>
+            src={imgSpace}
+            link={"https://github.com/YorlinPacha/Mi-Space-ToDo-List"}
+            h3={"Space To Do"}
+            p={"Lista de Tareas"}
+            tecnologias={"JavaScript - Vue3 - HTML - CSS3"}/>
         <ProjectCard
             src={weatherImg}
             link={"https://github.com/YorlinPacha/app_weather"}
