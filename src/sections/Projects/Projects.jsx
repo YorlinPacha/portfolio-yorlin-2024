@@ -5,6 +5,7 @@ import imgSestao from "../../assets/sestaoNow.png";
 import imgMarimba from "../../assets/marimbaLogo.png";
 import imgKpi from "../../assets/datosKpis.png";
 import ProjectCard from "../../common/ProjectCard";
+import weatherImg from '../../assets/weatherF5.png';
 
 function Projects() {
   return (
@@ -36,6 +37,12 @@ function Projects() {
             h3={"Sistema Admin"}
             p={"Web Restaurante "}
             tecnologias={"PHP - JavaScript - SQL - Bootstrap"}/>
+        <ProjectCard
+            src={weatherImg}
+            link={"https://github.com/YorlinPacha/app_weather"}
+            h3={"Weather F5"}
+            p={"Aplicacion del clima"}
+            tecnologias={"Html - CSS - Vue3 - JavaScript - Bootstrap"}/>
       </div>
     </section>
   );
