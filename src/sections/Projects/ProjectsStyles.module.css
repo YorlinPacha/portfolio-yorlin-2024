@@ -21,11 +21,11 @@
 }
 
 .projectsContainer{
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    align-items: flex-start;
 }
 
 @media (width >= 800px){
@@ -34,5 +34,6 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         padding: 0 30px;
+        align-items: flex-start;
     }
 }

@@ -77,7 +77,8 @@ p{
 .contenedorEnlace{
     /* border: 1px solid white; */
     transition: transform 200ms ease-in-out;
-    width: 400px;
+    flex: 1 1 400px; /* Toma todo el espacio disponible pero respeta el mínimo de 250px */
+    max-width: 400px; /* Limita el tamaño máximo para mantener uniformidad */
 
     margin-bottom: 30px;
     display: flex;
@@ -92,6 +93,7 @@ p{
         font-family: 'Roboto Mono', monospace;
     }
 }
+
 .oculto {
     visibility: hidden; /* Oculta el elemento pero mantiene su espacio en el layout (DEMO) */
   }
