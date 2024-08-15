@@ -6,6 +6,7 @@ import imgMarimba from "../../assets/marimbaLogo.png";
 import imgKpi from "../../assets/datosKpis.png";
 import ProjectCard from "../../common/ProjectCard";
 import weatherImg from '../../assets/weatherF5.png';
+import perfilYorlin from '../../assets//perfilYorlin.png';
 
 function Projects() {
   return (
@@ -33,6 +34,14 @@ function Projects() {
             tecnologias={"Vue3 - JavaScript - SQL - Bootstrap - Python"}
             mostrarDemo={"true"}
             linkDemo={"https://www.youtube.com/watch?v=SdVYx2X-Ec4"}/>
+        <ProjectCard
+            src={perfilYorlin}
+            link={"https://github.com/YorlinPacha/portfolio-yorlin-2024"}
+            h3={"Repositorio"}
+            p={"Personal"}
+            tecnologias={"JavaScript - React Js"}
+            mostrarDemo={"true"}
+            linkDemo={"https://yorlinpachajoa.netlify.app/"}/>
         <ProjectCard
             src={imgSpace}
             link={"https://github.com/YorlinPacha/Mi-Space-ToDo-List"}

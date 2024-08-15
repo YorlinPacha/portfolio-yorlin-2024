@@ -61,6 +61,7 @@ p{
 
 .sectionTitle{
     margin-bottom: 30px;
+    /* border: 1px solid white; */
 }
 
 .hover{
@@ -74,7 +75,9 @@ p{
 }
 
 .contenedorEnlace{
+    /* border: 1px solid white; */
     transition: transform 200ms ease-in-out;
+    width: 400px;
 
     margin-bottom: 30px;
     display: flex;
