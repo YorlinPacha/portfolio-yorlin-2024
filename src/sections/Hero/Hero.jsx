@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg'
 import githubrDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
-import CV from '../../assets/CV-Yorlin-Pachajoa-R-2024.pdf'
+import CV from '../../assets/CV Yorlin Pachajoa - DW.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
